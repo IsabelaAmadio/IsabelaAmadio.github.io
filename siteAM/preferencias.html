@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SUAS PREFERÊNCIAS</title>
+
+     <style type="text/css">
+    a {
+      color: black;
+    }
+
+  </style>
+
+</head>
+<body style="background-color:#9D9D9D;">
+
+     <h4>
+        <a href="index.html"> HOME </a>|
+        <a href="membros.html">MEMBROS DA BANDA</a>|
+        <a href="">SUAS PREFERÊNCIAS</a>|
+     </h4>
+
+    <font size="5" face="garamond">
+    	<p style="background-color:lightgray ;" align="center">
+    	<b>FALE SOBRE SUAS PREFERÊNCIAS DA BANDA:</b>
+    </font>
+
+
+<center>
+    <details>
+ 
+      <summary>     
+        <font size="5" face="garamond">
+    	
+    	✭ RESPONDA:
+        </font> 
+      </summary>
+
+        <form>
+        	
+        	<label for="famoso"> Qual o seu preferido? </label><br>
+        	<select name="famoso" id="famoso">
+        		<option></option>
+        		<option>Alex Turner</option>
+        		<option>Nick O'Malley</option>
+        		<option>Jamie Cook</option>
+        		<option>Matthew Helders</option>
+        	</select>	
+            
+            <p>
+            <label for="musica"> Qual sua música favorita? </label><br>  
+            <input type="text" id="musica" name="musica" size="40">
+            <p>
+
+            <label for="album"> Qual o seu álbum favorito da banda?</label><br>
+            <select name="album" id="album" size="5" multiple>
+            	<option>Whatever People Say I Am, That’s What I’m Not</option>
+            	<option>Favourite Worst Nightmare</option>
+            	<option>Humbug</option>
+            	<option>Suck It and See</option>
+            	<option>AM</option>
+            	<option>Tranquility Base Hotel & Casino</option>
+            	<option>The Car</option>
+            </select><br>
+            <small>ctrl+click para<br>múltipla seleção</small> 
+
+            <p></p>
+
+            <label for="nota"> Nota para a banda:</label><br>
+            <input type="number" name="nota" id="nota" min="0" max="10" placeholder="0-10">
+
+            <p></p>
+
+            <label for="data"> Quando você começou a ouvir a banda?</label><br>
+            <select id="inicio" name="inicio">
+            	<option></option>
+                <option value="menos1">Menos de 1 ano</option>
+                <option value="1a3">1 a 3 anos</option>
+                <option value="3a5">3 a 5 anos</option>
+                <option value="mais5">Mais de 5 anos</option>
+            </select>
+
+            <p></p>
+
+            <label for="show"> Você já foi a um show da banda?</label><br>
+            <input type="radio" name="show" id="show" value="sim">Sim
+            <input type="radio" name="show" id="show" value="não">Não
+            <p></p>
+
+            <label for="comentario"> Se sim, deixe sua experiência: </label><br>
+            <textarea id="comentario" name="comentario" rows="5" cols="50"></textarea>
+            <p></p>
+
+        </form>
+
+    </details>
+
+    <details>
+        <summary>
+           <font size="5" face="garamond">
+        	 ✭ QUER RECEBER NOVIDADES POR E-MAIL?</font>
+        </summary>
+       
+        <p></p>
+        <form>
+        	<label for="nome">Seu nome:</label><br>
+        	<input type="text" name="nome" id="nome" size="50" required minlength="3" maxlength="30" spellcheck="true" placeholder="Escreva seu nome completo:">
+
+        </form>
+
+   </details>
+
+</center>
+
+</body>
+</html>
